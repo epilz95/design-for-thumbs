@@ -5,12 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" href="css/main.css">
 		<title>Mobile tap navigation</title>
-		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
 		<header class="header">
 			<img src="img/logo.png" class="image">
-			<button class="button button-dots-start">
+			<button class="button button-dots-start js-button-dots-start">
 				<div class="dots dots-left">
 					<span></span>
 					<span></span>
@@ -28,29 +28,22 @@
 				</div>
 			</button>
 		</header>
-		<nav class="nav">
-			<ul class="nav-list nav-list-icons">
-				<li class="item item-phone">
-					<a href=""></a>
-				</li>
-				<li class="item item-mail">
-					<a href=""></a>
-				</li>
-				<li class="item item-location">
-					<a href=""></a>
-				</li>
-			</ul>
-			<ul class="nav-list nav-list-items">
+		<nav class="nav js-nav">
+			<ul class="nav-list">
 				<li>
+					<a href=""></a>
 					<a href="">Leistungen</a>
 				</li>
 				<li>
+					<a href=""></a>
 					<a href="">Referenzen</a>
 				</li>
 				<li>
+					<a href=""></a>
 					<a href="">Team</a>
 				</li>
 			</ul>
+			<button class="button button-close js-button-close"></button>
 		</nav>
 	</body>
 </html>
